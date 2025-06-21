@@ -1,0 +1,35 @@
+{
+  "name": "jsn-site",
+  "version": "1.0.0",
+  "description": "Jackson Strength Network frontend deployment for Netlify.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [
+    "jackson-strength-network",
+    "nonprofit",
+    "react",
+    "netlify"
+  ],
+  "author": "Justin Counts",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.1",
+    "netlify-plugin-bundle-env": "^1.0.5",
+    "netlify-plugin-cypress": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
