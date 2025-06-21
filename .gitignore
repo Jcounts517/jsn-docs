@@ -1,0 +1,25 @@
+
+# dependencies
+/node_modules
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.cache
+.temp
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Netlify & Vercel
+.netlify
+.vercel
+
+# OS
+Thumbs.db
